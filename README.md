@@ -11,7 +11,7 @@ A program that mimics bash pipe behavior
 Clone and compile the project, then run a command:
 ```bash
 git clone https://github.com/dpaes-so/42-Pipex.git
-cd pipex
+cd 42-pipex
 make
 ./pipex file1 "cat" "wc -l" file2
 
