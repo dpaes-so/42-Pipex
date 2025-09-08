@@ -2,10 +2,10 @@
 A program that mimics bash pipe behavior
 
 ## 🔨 Features
-- no limits of commands
-- the first command accepts input from a file
-- writes the output to a outfile
-- handles the here_doc mode
+- No limit on number of commands
+- First command accepts input from a file
+- Writes output to a file
+- Supports here_doc mode
 ---
 ## 💻 How to Run
 Clone and compile the project, then run a command:
@@ -15,3 +15,4 @@ cd pipex
 make
 ./pipex file1 "cat" "wc -l" file2
 
+./pipex here_doc LIMITER "cat" "wc -l" output_file
